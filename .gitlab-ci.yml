@@ -20,7 +20,7 @@ unit_test:
     - bundle exec rspec --format progress --format RspecJunitFormatter --out rspec.xml
 
   tags:
-    - general
+    - msd
   artifacts:
     when: always
     reports:
