@@ -22,14 +22,14 @@
 
 ---
 
-* **The third step** (under development)
+* **The third step** (completed)
 * Now, setup a gitlab-CI pipeline for automatic unit tests and image build's (change the template name) - done
 * **Add teacher to your project (with maintainer permissions) --> teacher will activate the *msd* runner for you!**(Send a message in Teams) - done 
 * At this point you might need to edit ci-template and change the path to your Dockerfile, depending on your project structure
 
 ---
 
-* **The fourth step (optional)**
+* **The fourth step (optional)** (under development)
 * At this stage you'll get familiar with Kubernetes
 * Build a new yaml file that you can deploy your container in Kubernetes (service&deployment)
 * Test that it works on your local environment
