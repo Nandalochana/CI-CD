@@ -9,7 +9,6 @@ class TestGenerator(unittest.TestCase):
         pass
 
     def test_pointless_function(self):
-        print(f"Test method executed")
         self.assertEqual(generator.pointless_function(5,5), 25)
 
 if __name__ == "__main__":
