@@ -9,6 +9,7 @@ class TestGenerator(unittest.TestCase):
         pass
 
     def test_pointless_function(self):
+        print("Test result will appear Here!")
         self.assertEqual(generator.pointless_function(5,5), 25)
 
 if __name__ == "__main__":
