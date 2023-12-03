@@ -25,7 +25,7 @@
 * **The third step** (completed)
 * Now, setup a gitlab-CI pipeline for automatic unit tests and image build's (change the template name) - done
 * **Add teacher to your project (with maintainer permissions) --> teacher will activate the *msd* runner for you!**(Send a message in Teams) - done 
-* At this point you might need to edit ci-template and change the path to your Dockerfile, depending on your project structure
+* At this point you might need to edit ci-template and change the path to your Dockerfile, depending on your project structure - done 
 
 ---
 
