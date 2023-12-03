@@ -6,7 +6,7 @@
 stages:
   - test
   - build
-  #- deploy
+  - deploy
 
 # Execute a unit tests. This stage should be working out of the box.
 # You can test the outcome by changing the values by changing the "test_pointless_function" values in tests.py file
