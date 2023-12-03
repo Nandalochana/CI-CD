@@ -7,24 +7,24 @@
 
 ---
 
-* **The first step**
+* **The first step** (Completed)
 * Start the assignment by forking this project under your own namespace and clone it to your own computer.
 * Execute the app in your own computer.
 * You must have Python 3.X installed with PIP. (Hint: install the needed packages using requirements.txt file)
 
 ---
 
-* **The second step**
-* Containerize the application (Create a Dockerfile + build it)
+* **The second step** (Completed)
+* Containerize the application (Create a Dockerfile + build it) - done 
 * You can use whatever base image you want
-* Hint: You can define the "main" process using CMD or Entrypoint options (for example: python /path_to/app.py)
+* Hint: You can define the "main" process using CMD or Entrypoint options (for example: python /path_to/app.py) - done 
 
 
 ---
 
-* **The third step**
-* Now, setup a gitlab-CI pipeline for automatic unit tests and image build's (change the template name)
-* **Add teacher to your project (with maintainer permissions) --> teacher will activate the *msd* runner for you!**(Send a message in Teams)
+* **The third step** (under development)
+* Now, setup a gitlab-CI pipeline for automatic unit tests and image build's (change the template name) - done
+* **Add teacher to your project (with maintainer permissions) --> teacher will activate the *msd* runner for you!**(Send a message in Teams) - pending 
 * At this point you might need to edit ci-template and change the path to your Dockerfile, depending on your project structure
 
 ---
