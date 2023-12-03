@@ -16,11 +16,15 @@ unit_test:
   script:
     - pip install xmlrunner
     - python ./src/tests.py
-  only:
-    - master
+    - bundle install
+    - bundle exec rspec --format progress --format RspecJunitFormatter --out rspec.xml
+
   tags:
     - general
   artifacts:
+    when: always
+    reports:
+      junit: rspec.xml
     paths:
       - test-reports/TEST-*.xml
 
