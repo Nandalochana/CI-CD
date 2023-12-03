@@ -16,6 +16,9 @@ unit_test:
   script:
     - pip install xmlrunner
     - python ./src/tests.py
+    - bundle install
+    - bundle exec rspec --format progress --format RspecJunitFormatter --out rspec.xml
+
   tags:
     - general
   artifacts:
