@@ -26,6 +26,7 @@ unit_test:
     reports:
       junit: rspec.xml
     paths:
+      - rspec.xml
       - test-reports/TEST-*.xml
 
 # Build a docker image, using the teachers GitLab runner (general runner is unable to use docker commands)
