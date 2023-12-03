@@ -12,6 +12,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-CMD python3 ./src/app.py
+CMD python3 ./app/app.py
 
 EXPOSE 5000
