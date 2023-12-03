@@ -16,17 +16,11 @@ unit_test:
   script:
     - pip install xmlrunner
     - python ./src/tests.py
-    - bundle install
-    - bundle exec rspec --format progress --format RspecJunitFormatter --out rspec.xml
-
   tags:
     - msd
   artifacts:
     when: always
-    reports:
-      junit: rspec.xml
     paths:
-      - rspec.xml
       - test-reports/TEST-*.xml
 
 # Build a docker image, using the teachers GitLab runner (general runner is unable to use docker commands)
