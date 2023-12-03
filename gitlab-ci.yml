@@ -1,5 +1,5 @@
 # Change the filename to: .gitlab-ci.yml
-#
+# 
 # The following template uses LabraNet's runner that has a Docker executor
 
 # Define a pipeline stages
