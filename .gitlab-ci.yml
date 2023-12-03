@@ -6,7 +6,7 @@
 stages:
   - test
   - build
-  - deploy
+  #- deploy
 
 # Execute a unit tests. This stage should be working out of the box.
 # You can test the outcome by changing the values by changing the "test_pointless_function" values in tests.py file
@@ -32,6 +32,8 @@ build:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - docker build -t $CI_REGISTRY_IMAGE .
     - docker push $CI_REGISTRY_IMAGE
+  only:
+    - master
   tags:
   - msd
 
